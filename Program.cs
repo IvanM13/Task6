@@ -4,4 +4,11 @@
 -3 -> нет
 7 -> нет*/
 
-
+Console.WriteLine("Введите число");
+int number = int.Parse(Console.ReadLine());
+if(number % 2 == 0)
+{
+    Console.Write($"- > да");
+}
+else
+    Console.Write($"- > нет");
