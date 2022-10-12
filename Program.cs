@@ -8,7 +8,7 @@ Console.WriteLine("Введите число");
 int number = int.Parse(Console.ReadLine());
 if(number % 2 == 0)
 {
-    Console.Write($"- > да");
+    Console.Write($"- > да, число чётное");
 }
 else
-    Console.Write($"- > нет");
+    Console.Write($"- > нет, число нечётное ");
